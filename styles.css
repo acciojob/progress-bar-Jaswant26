@@ -1,1 +1,28 @@
 /*  your css code here. If applicable */
+.progress-bar {
+      display: flex;
+      align-items: center;
+    }
+    .circle {
+      width: 20px;
+      height: 20px;
+      background-color: #ccc;
+      border-radius: 50%;
+      margin: 0 10px;
+      cursor: pointer;
+		text-align:center;
+    }
+
+    .active {
+      background-color: #007bff;
+    }
+
+    #next {
+      margin-left: 10px;
+      cursor: pointer;
+    }
+
+    #prev {
+      margin-right: 10px;
+      cursor: pointer;
+    }
